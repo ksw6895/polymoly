@@ -1,0 +1,38 @@
+[
+  {
+    "condition_id": "market_a",
+    "slug": "election-2023",
+    "category": "politics",
+    "end_date": "2023-11-05T20:00:00Z",
+    "clob_token_yes": "token_a_yes",
+    "clob_token_no": "token_a_no",
+    "neg_risk_group": null
+  },
+  {
+    "condition_id": "market_b",
+    "slug": "championship-2024",
+    "category": "sports",
+    "end_date": "2024-06-15T18:00:00Z",
+    "clob_token_yes": "token_b_yes",
+    "clob_token_no": "token_b_no",
+    "neg_risk_group": null
+  },
+  {
+    "condition_id": "market_c",
+    "slug": "protocol-upgrade",
+    "category": "crypto",
+    "end_date": "2024-09-10T12:00:00Z",
+    "clob_token_yes": "token_c_yes",
+    "clob_token_no": "token_c_no",
+    "neg_risk_group": "grp_upgrade"
+  },
+  {
+    "condition_id": "market_d",
+    "slug": "inflation-below-three",
+    "category": "macro",
+    "end_date": "2025-03-20T14:00:00Z",
+    "clob_token_yes": "token_d_yes",
+    "clob_token_no": "token_d_no",
+    "neg_risk_group": null
+  }
+]

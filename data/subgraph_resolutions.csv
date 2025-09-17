@@ -1,0 +1,5 @@
+condition_id,resolved_outcome,resolve_ts,dispute_flag
+market_a,yes,2023-11-06T10:00:00Z,false
+market_b,no,2024-06-16T09:00:00Z,false
+market_c,yes,2024-09-11T08:00:00Z,false
+market_d,yes,2025-03-21T12:00:00Z,false
