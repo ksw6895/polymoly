@@ -9,11 +9,11 @@
 ```mermaid
 flowchart LR
     subgraph Source[데이터 소스]
-        Local[로컬 CSV/JSON<br/>(load_local_bundle)]
-        API[Polymarket API<br/>(download_bundle_from_api)]
+        Local["로컬 CSV/JSON<br/>(load_local_bundle)"]
+        API["Polymarket API<br/>(download_bundle_from_api)"]
     end
     subgraph Preprocess[전처리 계층]
-        EnsureBooks[_ensure_books<br/>(_synthesise_books)]
+        EnsureBooks["_ensure_books<br/>(_synthesise_books)"]
         EnsurePrices[_ensure_prices]
         Labels[attach_labels]
         Features[compute_features]
@@ -138,7 +138,7 @@ flowchart TB
 
     FeatureSet --> Fit[IsotonicCalibrator.fit]
     Fit --> Predict[IsotonicCalibrator.transform]
-    Predict --> Iterate[BacktestEngine.run<br/>(테스트 루프)]
+    Predict --> Iterate["BacktestEngine.run<br/>(테스트 루프)"]
     Splits --> Iterate
     BookLookup --> Iterate
 
@@ -176,7 +176,6 @@ flowchart LR
 
     Trades --> Summary[compute_summary]
     Initial --> Summary
- ㅁ
     Trades --> Monthly[compute_monthly_breakdown]
     Trades --> Calibration[compute_calibration]
     Trades --> Brier[brier_score]
